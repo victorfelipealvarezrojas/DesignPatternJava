@@ -32,6 +32,10 @@ public class User {
         this.birthDay = birthDay;
     }
 
+    public LocalDate getBirthday(){
+        return this.birthDay;
+    }
+
     public Address getAddress() {
         return address;
     }

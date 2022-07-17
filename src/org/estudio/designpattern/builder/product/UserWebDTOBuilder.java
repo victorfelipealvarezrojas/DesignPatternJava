@@ -5,6 +5,8 @@ import org.estudio.designpattern.builder.entity.Address;
 import java.time.LocalDate;
 import java.time.Period;
 
+//Proporcionará todas las implementaciones de métodos que construyen las partes de nuestro objeto
+//También proporcionará un método que ensambla el objeto final
 public class UserWebDTOBuilder implements IUserDTOBuilder {
     private String firstName;
     private String lastName;

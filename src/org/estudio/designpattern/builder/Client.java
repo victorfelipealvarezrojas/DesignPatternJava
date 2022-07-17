@@ -14,6 +14,7 @@ public class Client {
         IUserDTOBuilder builder = new UserWebDTOBuilder();
 
         IUserDTO dto = directBuild(builder, user);
+
         System.out.println(dto);
     }
 
